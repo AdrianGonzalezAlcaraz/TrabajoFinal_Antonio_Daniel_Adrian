@@ -22,12 +22,10 @@ include "header.php";
     move_uploaded_file($directorioTemporal, $rutaCompleta);
     $imagen = file_get_contents($rutaCompleta);
     if(in_array($extension,$tipo ) && isset($_POST['descripcion'])) {
-        if( $temporal['size'] > $max_file_size) {
             $sql = "INSERT INTO productos (id_producto, nombre, descripcion , precio, fotografia) VALUES($id,'$nombre','$descripcion',$precio, '$nombreArchivo')";
             if(mysqli_query($conexion,$sql)) {
                header("location: alta_ok.php");
             }
-        }
     } else {
         header("location: error.php");
     }
