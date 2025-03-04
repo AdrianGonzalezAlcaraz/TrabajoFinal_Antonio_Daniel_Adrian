@@ -75,7 +75,9 @@ include "header.php";
                         <input type="submit" value="Alta Producto" class="btn btn-success">
                     </form>
                      <!-- enlace y icono de regreso a la pagina principal. una flecha hacia atras -->
-                    <a href="index.php"><i class="bi bi-arrow-return-left"style="font-size:3em"></i></a>
+                    <a href="index.php"><svg id="i-backwards" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M16 2 L2 16 16 30 16 16 30 30 30 2 16 16 Z" />
+</svg></a>
                 </div>
             </div>
         </div>
