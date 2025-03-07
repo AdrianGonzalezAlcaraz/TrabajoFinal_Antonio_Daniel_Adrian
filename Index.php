@@ -27,8 +27,8 @@ include "header.php";
                                 <tr>
                                     <td scope="row"><a href="alta.php"><i class="bi bi-align-middle " style="color:green; font-size:3em"></i></a></td>
                                     <td><a href="baja.php"><i class="bi bi-trash-fill"  style="color:red; font-size:3em"></i></a></td>
-                                    <td><a href="actualizar.php"><i class="bi bi-arrow-clockwise" style=" font-size:3em"></i></a></td>
-                                    <td><a href="listar.php"><i class="bi bi-eye" style="color:purple; font-size:3em"></i></a></td>
+                                    <td><a href="actualizar.php"><i class="bi bi-arrow-clockwise" style="color:yellow; font-size:3em"></i></a></td>
+                                    <td><a href="listar.php"><i class="bi bi-eye" style="color:blue; font-size:3em"></i></a></td>
                                 </tr>
                             </tbody>
                         </table>
